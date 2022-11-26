@@ -10,7 +10,7 @@ export default function Navbar() {
   return (
     <div className="container">
       <nav>
-        <Image src="/rupee.png" width={50} height={48} />
+        <Image alt ="" src="/rupee.png" width={50} height={48} />
         <h1>Gaming Vibes</h1>
         <ul>
           <li><Link href="/">Home</Link></li>
@@ -18,7 +18,7 @@ export default function Navbar() {
         </ul>
       </nav>
       <div className="banner">
-        <Image src="/banner.png" width={966} height={276} />
+        <Image alt =""  src="/banner.png" width={966} height={276} />
       </div>
     </div>
   )
