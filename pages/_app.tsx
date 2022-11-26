@@ -1,7 +1,7 @@
 import Navbar from '../components/Navbar'
 import '../styles/globals.css'
 
-function MyApp({ Component, pageProps }) {
+function MyApp({ Component, pageProps }:any) {
   return (
     <div>
       <Navbar />
